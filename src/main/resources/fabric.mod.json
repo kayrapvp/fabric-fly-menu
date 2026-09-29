@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "flymenu",
+  "version": "${version}",
+  "name": "Fly Menu",
+  "description": "Right Shift opens a menu to toggle Fly, 5x speed, and No Fall.",
+  "authors": [
+    "YourName"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.flymenu.FlyMenuMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1"
+  }
+}
